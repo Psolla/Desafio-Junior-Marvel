@@ -1,3 +1,5 @@
+# Este Projeto está em desenvolvimento, ainda há bastante mudanças a implementar e terminar algumas partes do código. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
+
 # Desafio de React JS com TypeScript
 
 Este projeto foi criado com o objetivo de desenvolver habilidades em React JS e TypeScript, utilizando as melhores práticas de programação.
