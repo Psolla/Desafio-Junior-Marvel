@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 # Este Projeto está em desenvolvimento, falta terminar a página Index e construir os sistemas de rotas. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
 
 
