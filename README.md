@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 =======
-# Este Projeto está em desenvolvimento, ainda há bastante mudanças a implementar e terminar algumas partes do código. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
+# Este Projeto está em desenvolvimento, falta terminar a página Index e construir os sistemas de rotas. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
 
 >>>>>>> 3f0f4fbe4b922a5a6ae148bdda4907b8d7cfe030
 # Desafio de React JS com TypeScript
