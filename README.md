@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# Este Projeto está em desenvolvimento, ainda há bastante mudanças a implementar e terminar algumas partes do código. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
+
+>>>>>>> 3f0f4fbe4b922a5a6ae148bdda4907b8d7cfe030
 # Desafio de React JS com TypeScript
 
 Este projeto foi criado com o objetivo de desenvolver habilidades em React JS e TypeScript, utilizando as melhores práticas de programação.
@@ -36,6 +41,7 @@ O desafio consiste em criar uma aplicação com rotas públicas e privadas, onde
 - DDD (Domain-Driven Design)
 - Testes
 - Custom ( Criar sua própria api)
+<<<<<<< HEAD
 
 ## Instalação
 
@@ -73,3 +79,5 @@ As pr's devem ser enviadas para o repositório.
 ## Contribuições
 
 Todas as contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias e correções.
+=======
+>>>>>>> 3f0f4fbe4b922a5a6ae148bdda4907b8d7cfe030
