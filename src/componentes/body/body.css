@@ -1,0 +1,58 @@
+.Welcome{
+    position: relative;
+    text-align: center;
+    background-color: #ec1d24;
+   
+}
+
+.Banner {
+    background-image: url(fundo.jpg);
+    height: 70vh;
+    width: auto;
+    background-size: cover;
+
+}
+
+.Logo {
+    height: 100px;
+
+}
+
+.Texto {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    padding-left: 7vw;
+    margin-top: 25vh;
+    font-family: poppins;
+    font-weight: 500;
+    
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/public/Poppins-Light.ttf);
+}
+
+.poppins {
+    font-family: poppins;
+}
+
+.Titlefinal {
+    margin-top: 3vh;
+    text-align: center;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.Buttonlow {
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+    font-family: poppins;
+    font-weight: 500;
+  
+}
