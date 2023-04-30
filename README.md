@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-=======
-# Este Projeto está em desenvolvimento, ainda há bastante mudanças a implementar e terminar algumas partes do código. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
 
->>>>>>> 3f0f4fbe4b922a5a6ae148bdda4907b8d7cfe030
+
+# Este Projeto está em desenvolvimento, falta terminar a página Index e construir os sistemas de rotas. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
+
+
 # Desafio de React JS com TypeScript
 
 Este projeto foi criado com o objetivo de desenvolver habilidades em React JS e TypeScript, utilizando as melhores práticas de programação.
@@ -43,41 +43,4 @@ O desafio consiste em criar uma aplicação com rotas públicas e privadas, onde
 - Custom ( Criar sua própria api)
 <<<<<<< HEAD
 
-## Instalação
 
-Para instalar e executar este projeto, siga os seguintes passos:
-
-1. Faça um fork e depois um clone este repositório com o seguinte comando:
-
-```bash
-git clone https://github.com/[seu-usuário]/[seu-repositório].git
-```
-
-
-2. Instale as dependências com o seguinte comando:
-
-```bash
-npm install
-```
-
-3. Execute o projeto com o seguinte comando:
-
-```bash
-npm start
-```
-
-
-A aplicação será iniciada em [http://localhost:3000](http://localhost:3000) e estará pronta para ser utilizada.
-
-
-Nesse desafio usaremos com base de api [https://developer.marvel.com/](https://developer.marvel.com/).
-
-## Pull Requests
-
-As pr's devem ser enviadas para o repositório.
-
-## Contribuições
-
-Todas as contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias e correções.
-=======
->>>>>>> 3f0f4fbe4b922a5a6ae148bdda4907b8d7cfe030
