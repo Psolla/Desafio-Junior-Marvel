@@ -6,7 +6,7 @@
 }
 
 .Banner {
-    background-image: url(fundo.jpg);
+    background-image: url(../../Assets/fundo.jpg);
     height: 70vh;
     width: auto;
     background-size: cover;
@@ -55,4 +55,57 @@
     font-family: poppins;
     font-weight: 500;
   
+}
+
+.cards {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    
+}
+
+.avatars {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.guide {
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: poppins;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    
+    
+   
+}
+
+.cards2 {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    
+}
+
+.avatars2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.guide2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: poppins;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
 }

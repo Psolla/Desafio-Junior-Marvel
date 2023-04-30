@@ -2,16 +2,20 @@ import React, { useState } from 'react';
 import { MenuProps, } from 'antd';
 import { Menu } from 'antd';
 import Avatares from '../Avatares/avatares';
+import { useNavigate } from 'react-router-dom';
 
+const Navegator = (props: {path: string; title: string}) => {
+  const navegate = useNavigate () 
+  return (
+    <div onClick={ () => navegate(props.path,{replace: true})}>
+      {props.title}
+    </div>
+  )
+}
 
-const items: MenuProps['items'] = [
-    
+const items: MenuProps['items'] = [   
   {
-    label: (
-      <a className='Menufont' href="#"  rel="noopener noreferrer">
-      Home Marvel
-      </a>
-    ),
+    label:<Navegator path="/" title='Home Marvel'/>,
     key: 'mail',
     
   },
@@ -26,29 +30,19 @@ const items: MenuProps['items'] = [
         label: '',
         children: [
           {
-            label: (
-              <a href="#"  rel="noopener noreferrer">
-              Fazer Login
-              </a>
-            ),
+            label: <Navegator path="/login" title='Fazer Login'/>,
             key: 'setting:1', 
           },
           {
-            label: (
-              <a href="#"  rel="noopener noreferrer">
-              Criar uma Conta
-              </a>
-            ),
+            label: <Navegator path="/signup" title='Criar Conta'/>,
             key: 'setting:2',
           },
         ],  
       },
-     
         ],
       },
     ];
     
-  
 
 const Menuu: React.FC = () => {
     
