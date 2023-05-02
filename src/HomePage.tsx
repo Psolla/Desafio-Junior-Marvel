@@ -4,8 +4,7 @@ import Body from './componentes/body/body'
 import 'antd/'
 import Menuu from './componentes/Menu/menu'
 import { useAuth } from './context/AuthProvider/useAuth';
-import ApiMarvel from './componentes/apimarvel';
-
+import Characters from './componentes/Characters';
 
 const Homepage: React.FC = () => {
 
@@ -20,7 +19,7 @@ const Homepage: React.FC = () => {
     <Layout>
       <Menuu />
       <Content className="site-layout" style={{ padding: '0 0px' }}>
-        <div style={{ minHeight: 1600, background: '#131516' }}><Body><div>{islogged?<ApiMarvel />:null}</div></Body></div>
+        <div style={{ minHeight: 100, background: '#131516' }}><Body><div>{islogged?<Characters />:null}</div></Body></div>
       </Content>
       <Footer style={{ textAlign: 'center',  background: '#0F1111', color: '#fff', fontFamily: 'poppins'  }}>Designed by Pedro Solla</Footer>
     </Layout>
@@ -28,3 +27,4 @@ const Homepage: React.FC = () => {
 };
 
 export default Homepage;
+

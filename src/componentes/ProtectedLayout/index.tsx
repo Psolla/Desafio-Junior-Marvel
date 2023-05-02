@@ -7,7 +7,7 @@ export const ProtectedLayout = ({ children }: { children: JSX.Element}) => {
 
 
     if (!auth.email) {
-        return <h1>You don't have acess</h1>;
+        return <h1>You don't have access</h1>;
     }
 
      return children;

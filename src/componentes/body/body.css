@@ -89,7 +89,8 @@
     max-width: 500px;
     margin: 0 auto;
     margin-top: 10vh;
-    display: flex;
+    display: flex;                                             
+    
     
 }
 
@@ -107,5 +108,39 @@
     color: white;
     font-weight: 500;
     font-size: 16px;
+
+}
+
+.cards3 {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    
+}
+
+.avatars3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.guide3 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: poppins;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8vh;
+
+}
+
+.headerherois {
+    font-size: 40px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
 
 }

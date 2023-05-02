@@ -4,6 +4,7 @@ import Logo from '../../Assets/logo.png';
 import Avatar1 from '../../Assets/spiderman3.png';
 import Avatar2 from '../../Assets/spidermanavatar2.png'
 
+
 function Body(props:{children:React.ReactNode}) {
 
   return (
@@ -29,16 +30,15 @@ function Body(props:{children:React.ReactNode}) {
   uma API</p>
   </div>
   <div className='cards2'>
- 
   <p className='guide2'>Primeiramente você terá que criar uma conta, basta clicar no avatar
   na parte do menu e selecionar a opção "Criar uma conta". Após a criação de conta
   é só fazer o login e você irá conseguir ver os nossos outros Heróis.</p>
    <img className='avatars2' src={Avatar2} alt=''></img>
   </div>
+  <div id='herois'></div>
     {props.children}
   </div>
      </> 
-   
   )
 
 }

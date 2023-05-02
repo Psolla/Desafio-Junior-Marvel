@@ -5,6 +5,7 @@ import  {ProtectedLayout}  from './componentes/ProtectedLayout';
 import { Login } from './componentes/Login';
 import Homepage from './HomePage';
 import { Signup } from './componentes/Signup';
+import Menuu from './componentes/Menu/menu';
 
 
 
@@ -22,20 +23,27 @@ function AppPr() {
                     </Route>
                     <Route path='/profile' element={
                          <ProtectedLayout>
-                            <h2>Aceso Concedido</h2>
+                            <h2>Acesso Concedido</h2>
                         </ProtectedLayout>
                     }>     
                     </Route>
 
                     <Route path='/login' element={
-                        <Login />
+                        <><Menuu /><Login /></>
                     }>
                         
                     </Route>
                     <Route path='/signup' element={
-                         <Signup />
+                         <><Menuu /><Signup /></>
                     }>
+
+                        
                        
+                    </Route>
+                    <Route path='/logout' element={
+                        <><Menuu /></>
+                    }>
+                        
                     </Route>
                 </Routes>
             </BrowserRouter>

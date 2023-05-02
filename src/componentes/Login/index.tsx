@@ -1,7 +1,8 @@
-import { Button, Col, Form, Input, Row, message } from "antd";
+import { Button, Col, Form, Input, Row, message, } from "antd";
 import React from 'react';
 import { useAuth } from "../../context/AuthProvider/useAuth";
 import { useNavigate } from "react-router-dom";
+
 
 export const Login = () => {
     const auth = useAuth()
@@ -24,21 +25,21 @@ export const Login = () => {
             justify='center'
             align='middle'
             style={{
-                height: '100vh'
+                height: '100vh',
             }}
         >
             <Col span={12}>
-                <Form
+                <Form 
                     name="basic"
                     labelCol={{span: 8}}
                     wrapperCol={{span: 16}}
                     onFinish={onFinish}
                 >
-                    <Form.Item
+                    <Form.Item 
                     label='Email'
                     name='email'
                     >
-                        <Input />
+                        <Input/>
                     </Form.Item>
 
                     <Form.Item
