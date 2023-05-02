@@ -1,6 +1,7 @@
 
 
-# Este Projeto está em desenvolvimento, falta terminar a página Index e construir os sistemas de rotas. O Projeto estará finalizado e com todos os detalhes arrumados até o dia 27/04/2023
+# Projeto De Rotas Públicas e Privadas com a API da Marvel. 
+## Este foi meu primeiro projeto com ReactJs e Typescript, você pode conferir como ele ficou através de um vídeo que eu gravei.<br>Assista em: https://youtu.be/Gc6SO8SDQc0
 
 
 # Desafio de React JS com TypeScript
@@ -20,27 +21,14 @@ O desafio consiste em criar uma aplicação com rotas públicas e privadas, onde
 
 ## Tecnologias Utilizadas
 
+- React
 - React JS
 - TypeScript
 - React Router
 - HTML
 - CSS
-
-## Requisitos Mínimos
-
-- Node.js
-- TypeScript
-- React
-- Ant Design
-
-
-## Requisitos Opcionais - Extra
-
 - Docker
-- Clean Code
-- DDD (Domain-Driven Design)
-- Testes
-- Custom ( Criar sua própria api)
-<<<<<<< HEAD
+- Node.js
+- Ant Design
 
 
